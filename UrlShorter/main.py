@@ -14,7 +14,7 @@ def index():
         if 'tinyurl' not in link_url:
             s = pyshorteners.Shortener()
             SHORT_URL = s.tinyurl.short(link_url)
-            print(SHORT_URL)
+            print(f'Initial URL - {link_url}, SHORT_URL - {SHORT_URL}')
             return render_template('index.html', url=SHORT_URL)
         else:
             return render_template('index.html', url='')
