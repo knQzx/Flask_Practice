@@ -1,4 +1,6 @@
 # Flask_Practice
+[UrlShorter](https://github.com/knQzx/Flask_Practice#UrlShorter)
+[Portfolio_Generator](https://github.com/knQzx/Flask_Practice#portfolio_generator)
 ## UrlShorter
 This application is on Flash in order to shorten the link.
 ```
